@@ -5,6 +5,28 @@
 	<title>404</title>
 </head>
 <body>
-<video controls="utf-8" src="videosyaudios/video.mp4" autoplay="1"></video>
+<video width="320" height="240" controls autoplay muted id="videoId">
+  <source src="videosyaudios/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 </body>
+<script type="text/javascript">
+	function toggleMute() {
+
+  var video=document.getElementById("videoId");
+
+  if(video.muted){
+    video.muted = false;
+  } else {
+    debugger;
+    video.muted = true;
+    video.play()
+  }
+
+}
+
+$(document).ready(function(){
+  setTimeout(toggleMute,3000);
+})
+</script>
 </html>
