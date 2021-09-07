@@ -1,0 +1,53 @@
+/* CSS Hoja de estilo. aulaclic.css */
+body {
+    font-family: verdana, sans-serif
+}
+ul {
+    list-style-type: none;
+    font-family: Tahoma, sans-serif;
+    line-height: 1.5
+}
+h2 {
+    font-size: 20px
+}
+ul h2 {
+    font-size: 16px
+}
+h2, ol {
+    color:darkred
+}
+.resaltado {
+    font-weight: bold
+}
+div.resaltado {
+    color: darkslategrey;
+   text-align: center;
+}
+p.resaltado {
+    color: blueviolet
+}
+span {
+    font-family: arial;
+     text-decoration: underline
+}
+#sin_subrayar {
+    text-decoration: none;
+    letter-spacing: 3px
+}
+a:link {
+    text-decoration: none 
+} 
+.fondo {
+    background-color: antiquewhite;
+    width: 22em;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    text-shadow: 3px 2px 4px grey;    
+}
+.bordes { 
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 9px;
+}

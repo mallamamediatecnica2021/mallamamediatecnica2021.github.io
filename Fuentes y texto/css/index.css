@@ -1,0 +1,26 @@
+/* CSS Hoja de estilo. index.css */
+ ul {
+    list-style-type: none
+}
+body {
+    font-family: verdana;
+    font-size: 1.2em
+}
+p {
+    font-family: arial, verdana, sans-serif;
+    font-size: 0.9em
+}
+h1 {
+    font-size: x-large
+}
+.primero { 
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "times new roman", serif;
+    text-align: center
+}
+.segundo { 
+    font: italic bold 12px "times new roman", serif;
+    text-align: justify
+}
